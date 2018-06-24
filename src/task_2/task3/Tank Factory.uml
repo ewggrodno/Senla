@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="137.0" y="683.0">task_2.task3.tank.part.IProductPart</node>
+    <node x="0.0" y="145.0">task_2.task3.tank.Tank</node>
+    <node x="0.0" y="762.0">task_2.task3.tank.part.Housing</node>
+    <node x="294.0" y="101.0">task_2.task3.assembly_line.AssemblyLine</node>
+    <node x="0.0" y="520.0">task_2.task3.assembly_line.line_step.LineStepHousing</node>
+    <node x="318.0" y="0.0">task_2.task3.assembly_line.IAssemblyLine</node>
+    <node x="135.0" y="762.0">task_2.task3.tank.part.Tower</node>
+    <node x="296.0" y="520.0">task_2.task3.assembly_line.line_step.LineStepEngine</node>
+    <node x="320.0" y="419.0">task_2.task3.assembly_line.line_step.ILineStep</node>
+    <node x="0.0" y="0.0">task_2.task3.tank.IProduct</node>
+    <node x="592.0" y="520.0">task_2.task3.assembly_line.line_step.LineStepTower</node>
+    <node x="270.0" y="762.0">task_2.task3.tank.part.Engine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task_2.task3.assembly_line.AssemblyLine" target="task_2.task3.assembly_line.IAssemblyLine">
+      <point x="0.0" y="-103.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="task_2.task3.assembly_line.line_step.LineStepEngine" target="task_2.task3.assembly_line.line_step.ILineStep">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="task_2.task3.tank.part.Tower" target="task_2.task3.tank.part.IProductPart">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="task_2.task3.assembly_line.line_step.LineStepTower" target="task_2.task3.assembly_line.line_step.ILineStep">
+      <point x="0.0" y="-59.0" />
+      <point x="730.0" y="495.0" />
+      <point x="510.0" y="495.0" />
+      <point x="76.0" y="25.5" />
+    </edge>
+    <edge source="task_2.task3.assembly_line.line_step.LineStepHousing" target="task_2.task3.assembly_line.line_step.ILineStep">
+      <point x="0.0" y="-59.0" />
+      <point x="138.0" y="495.0" />
+      <point x="358.0" y="495.0" />
+      <point x="-76.0" y="25.5" />
+    </edge>
+    <edge source="task_2.task3.tank.part.Housing" target="task_2.task3.tank.part.IProductPart">
+      <point x="0.0" y="-25.5" />
+      <point x="57.5" y="737.0" />
+      <point x="155.5" y="737.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="task_2.task3.tank.part.Engine" target="task_2.task3.tank.part.IProductPart">
+      <point x="0.0" y="-25.5" />
+      <point x="327.5" y="737.0" />
+      <point x="229.5" y="737.0" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="task_2.task3.tank.Tank" target="task_2.task3.tank.IProduct">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.202280912364946" x="572.4418372441337" y="345.97104343484773" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
